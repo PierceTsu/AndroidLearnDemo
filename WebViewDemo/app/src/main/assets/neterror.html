@@ -1,0 +1,27 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+
+<script type="text/javascript">
+
+    function reload() {
+        //调用android对象中的方法
+        alert("将调用android中的方法");
+        window.obj.androidMethod();
+    }
+
+    //该方法暴露给activity调用
+    function callFromAndroid() {
+        document.getElementById("content").innerHTML = "Android 调用 Javascript 成功";
+    }
+
+</script>
+
+<body onclick="reload()" id="content">
+    <div align="center">
+        <p><img src="net.png" alt="网络错误提示图"/></p>
+        <span>网络连接不正确,请点击重试</span>
+    </div>
+</body>
+</html>

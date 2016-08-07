@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.patrick.customviewdemo.viewGroup.CustomLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7cc0dad9">
+
+    <com.patrick.customviewdemo.view.IconView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:background="#7b9dcc60"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="点我啊"/>
+
+</com.patrick.customviewdemo.viewGroup.CustomLayout>
